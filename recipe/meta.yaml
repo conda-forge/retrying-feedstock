@@ -3,7 +3,7 @@
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "08c039560a6da2fe4f2c426d0766e284d3b736e355f8dd24b37367b0bb41973b" %}
-{% set build = 1 %}
+{% set build = 2 %}
 
 package:
   name: {{ name|lower }}
@@ -15,11 +15,13 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
+  noarch: python
   number: {{ build }}
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
 
