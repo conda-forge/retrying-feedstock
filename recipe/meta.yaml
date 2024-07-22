@@ -3,7 +3,7 @@
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "08c039560a6da2fe4f2c426d0766e284d3b736e355f8dd24b37367b0bb41973b" %}
-{% set build = 2 %}
+{% set build = 3 %}
 
 package:
   name: {{ name|lower }}
@@ -22,11 +22,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
 
   run:
-    - python
+    - python >=3.6
     - six >=1.7.0
 
 test:
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/rholder/retrying
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
   summary: 'Simplify the task of adding retry behavior to just about anything.'
