@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/rholder/retrying
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
   summary: 'Simplify the task of adding retry behavior to just about anything.'
