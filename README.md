@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@synapticarbors](https://github.com/synapticarbors/)
 
