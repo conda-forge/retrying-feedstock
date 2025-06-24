@@ -22,7 +22,6 @@ requirements:
 
   run:
     - python >={{ python_min }}
-    - six >=1.7.0
 
 test:
   requires:
