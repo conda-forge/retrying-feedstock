@@ -3,13 +3,13 @@ About retrying-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/retrying-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/rholder/retrying
+Home: https://github.com/groodt/retrying
 
 Package license: Apache-2.0
 
 Summary: Simplify the task of adding retry behavior to just about anything.
 
-Development: https://github.com/rholder/retrying
+Development: https://github.com/groodt/retrying
 
 Current build status
 ====================
